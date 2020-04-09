@@ -1,2 +1,8 @@
 <!--pages/home/home.wxml-->
-<text>hello world</text>
+<view>hello {{name}}</view>
+<view>年龄 {{age}}</view>
+<view wx:for='{{teamer}}'>{{item.name}} {{item.age}}</view>
+<view>计数 {{count}}</view>
+<button size="mini" bindtap="zengjia">+</button>
+<button size="mini" bindtap="jianshao" >-</button>
+
